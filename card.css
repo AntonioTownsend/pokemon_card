@@ -1,0 +1,73 @@
+/* card.css */
+
+.background {
+  width: 245px;
+  height: 342px;
+  border: solid 12px #A3A5AB;
+  border-radius: 5%;
+  background-color: #FBAB70;
+}
+
+.rarity {
+  width: 45px;
+  height: 15px;
+  z-index: 1;
+  background-color: #DBDBDB;
+  font-family: Arial,sans-serif;
+  font-size: 12px;
+  font-style: oblique;
+  font-weight: bold;
+  color: #808184;
+  border-radius: 35%;
+  position: fixed;
+  top: 20px;
+  left: 14px;
+}
+
+.name {
+  width: 45px;
+  height: 15px;
+  z-index: 1;
+  font-family: Arial,sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: bold;
+  color: #black;
+  position: absolute;
+  top: 22px;
+  left: 65px;
+}
+
+.HP {
+  width: 45px;
+  height: 15px;
+  z-index: 1;
+  font-family: Arial,sans-serif;
+/*   font-size: 18px; */
+/*   font-style: normal; */
+/*   font-weight: bold; */
+  color: #black;
+  position: fixed;
+  top: 20px;
+  left: 208px;
+}
+
+/*both classes inherit HP class  */
+.smaller {
+  font-size: 8px;
+  font-weight: bold;
+}
+
+.larger {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.type {
+  width: 45px;
+  height: 15px;
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  left: 240px;
+}
